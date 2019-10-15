@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>users</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./mycss.css">
+</head>
+
+<body>
+
+        <div class="jumbotron jumbotron-fluid text-center bg-info text-white">
+                <div class="container">
+                  <h1 class="display-4">Random Users Client <span class="fas fa-users"> </span></h1>
+                 
+                </div>
+              </div>
+              <form class="form-inline">
+                <div class="form-group mb-2">
+                  <input type="text" readonly class="form-control-plaintext" value="Edit email address: ">
+                </div>
+                <div class="form-group mx-sm-3 mb-2">
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+              </form>
+              
+              <button id="userBtn" class="btn btn-primary">Get user</button>
+              <div id="errMsg"></div>
+              <div id="divUsers" class="row">
+                
+                
+                
+                
+              </div>
+              <div id="userCard" class="card" style="width: 18rem;display: none">
+                  <img  class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h3 class="card-title">Card title</h3>
+                    <h4 class="card-title">Card title</h4>                     
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <button id="delBtn" class="btn btn-danger">Delete</button>
+                    <button id="editBtn" class="btn btn-warning">Edit</button>                      
+                    <button id="saveBtn" type="button" class="btn btn-success">Save</button>
+                  </div>
+                </div>
+
+
+
+    <script src="./icon.js"></script>
+    <script src="./jQuery.js"></script>
+    <script src="./service.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
